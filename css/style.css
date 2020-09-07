@@ -135,6 +135,8 @@ footer p {
 
     .services {
         padding: 7rem 0rem;
+        top: 5%;
+        margin-top: 5px;
     }
 }
 
