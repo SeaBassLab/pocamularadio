@@ -13,10 +13,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
       <!--Css Animate-->
-      <link
-   rel="stylesheet"
-   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
- />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <!-- Css custom -->
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -24,22 +21,30 @@
   <body>
     <!-- Header -->
     <header class="header">
+      <nav class="navegadores">
+        <ul>
+          <li style="border-left: 2px solid #fff;"><i class="fas fa-home"> Home</i></li>
+          <li>Enlaces</li>
+          <li>Cursos</li>
+          <li>Nosotros</li>
+        </ul>
+      </nav>
         <div class="header-content">
-          <!-- Contador de visitas -->
+            <h2 class="title"><strong>Pocamula Radio</strong></h2>
+            <audio autoplay="autoplay" controls="controls" class="audio"> <source src="http://stream.zeno.fm/ewt0dkvcna0uv" type="audio/ogg" /> </audio><br />
+            <img src="img/logo_size_invert.jpg" alt="Faszt Logo" class="logo">
+            <p class="text"><h3 class="subtitle"><strong>Conectando con el corazón</strong></h3></p>
+        </div>
+    </header>
+
+    <!-- Services -->
+    <section class="services text-center">
+        <h3 class="title"><Services>Enlaces</Services></h3>
+        <!-- Contador de visitas -->
               <center><a>
               <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=283727">
               </a></center>
         <!-- Fin Contador de visitas -->
-            <audio autoplay="autoplay" controls="controls" class="audio"> <source src="http://stream.zeno.fm/ewt0dkvcna0uv" type="audio/ogg" /> </audio>
-            <img src="img/logo.png" alt="Faszt Logo" class="logo">
-            <h2 class="title">Pocamula Radio</h2>
-            <p class="text"><h3><strong>Conectando con el corazón</strong></h3></p>
-        </div>
-    </header>
-      
-    <!-- Services -->
-    <section class="services text-center">
-        <h3 class="title">Services</h3>
         <div class="container grid-3">
             <div>
                 <i class="fab fa-youtube fa-5x"></i>
@@ -52,8 +57,8 @@
                 <p>Nuestro Blog</p>
             </div>
             <div>
-                <i class="fab fa-wordpress fa-5x"></i>
-                <h3>Website</h3>
+                <i class="fab fa-instagram-square fa-5x"></i>
+                <h3>Instagram</h3>
                 <p>Nuestra Web</p>
             </div>
         </div>
@@ -66,12 +71,11 @@
             <i class="fas fa-code fa-10x"></i>
           </div>
           <div>
-              <h2 class="title">Aprende ajedrez en Pocamula</h2>
-              <p>Clases<br />Cursos<br />Torneos<br />Y mucho mas...</p>
+              <h2 class="title">Cursos</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus ut harum aut labore odit fuga doloribus quasi perspiciatis nostrum! Ut non autem repellat hic accusantium totam, sed quidem sunt ullam.</p>
           </div>
 
         </div>
-      
       </div>
     </section>
 
@@ -91,8 +95,14 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer text-center bg-dark">
-        <p>Pocamula Radio © 2020 - All rights reserved</p>
+    <footer class="footer center bg-dark">
+        <div class="grid-2">
+          <div style="text-align: left;">
+          Pocamula Radio © 2020 - All rights reserved
+          </div>
+          <div style="text-align: right;">
+          Diseñado por Sebastian Pulido
+         </div>
     </footer>
   </body>
 </html>
