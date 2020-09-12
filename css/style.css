@@ -60,10 +60,6 @@ body {
   border-radius: 200px;
 }
 
-.audio {
-  margin-bottom: -10px;
-}
-
 .navegadores {
   text-align: center;
   display: block;
@@ -83,6 +79,11 @@ body {
   text-decoration: none;
   color: #fff;
 }
+
+.audio {
+  margin-bottom: -10px;
+}
+
 
 .center a {
   text-decoration: none;
