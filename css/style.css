@@ -1,7 +1,7 @@
 body {
   background: rgba(0, 0, 0, 0.9);
   margin: 0;
-  color: #CDCDD2;
+  color: #fff;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -56,6 +56,14 @@ body {
   text-shadow: 0.1em 0.1em #333
 }
 
+.header-content img {
+  border-radius: 200px;
+}
+
+.audio {
+  margin-bottom: -10px;
+}
+
 .navegadores {
   text-align: center;
   display: block;
@@ -64,7 +72,6 @@ body {
 }
 
 .navegadores li {
-  border-right: 2px solid #fff;
   padding-left: 60px;
   list-style: none;
   display: inline-block;
@@ -72,14 +79,20 @@ body {
   padding: auto;
 }
 
+.navegadores li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.center a {
+  text-decoration: none;
+  color: #000;
+}
+
 .header-content .logo {
     margin-top: 10px;
     height: 300px;
     width: 300px;
-}
-
-.audio {
-  margin-bottom: 10px;
 }
 
 .title {
@@ -105,6 +118,11 @@ body {
     grid-gap: 20px;
 }
 
+.grid-3 a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -122,8 +140,8 @@ body {
 }
 
 .bg-dark {
-    background: #fff;
-    color: #000;
+    background: #2c3e50;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -135,6 +153,10 @@ body {
   padding-right: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
 }
 @media(max-width: 560px) {
     .header::after {
