@@ -80,11 +80,6 @@ body {
   color: #fff;
 }
 
-.audio {
-  margin-bottom: -10px;
-}
-
-
 .center a {
   text-decoration: none;
   color: #000;
@@ -165,7 +160,7 @@ body {
     }
 
     .navegadores {
-      
+      display: none;
     }
 
     .header-content {
