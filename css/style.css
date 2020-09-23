@@ -188,6 +188,10 @@ body {
   color: #fff;
 }
 @media(max-width: 560px) {
+  
+    .header-content input{
+      display: none;
+    }
     .header::after {
       height: 50vh;
     }
