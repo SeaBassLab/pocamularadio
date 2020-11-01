@@ -126,3 +126,28 @@ body {
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+  .navegador ul > li a {
+    font-size: 14px;
+  }
+.audioContent__item button {
+  align-self: center;
+}
+  .audioContent__item input {
+    display: none;
+    width: 0px;
+    height: 0px;
+  }
+  .audioContent {
+    width: 70%;
+    height: auto;
+    font-size: 1rem;
+    display: block;
+  }
+  .title {
+    display: none;
+  }
+}
