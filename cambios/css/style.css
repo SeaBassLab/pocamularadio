@@ -129,6 +129,7 @@ body {
 @media only screen and (max-width: 600px) {
   .header {
     flex-direction: column;
+    padding-bottom: 10px;
   }
   .navegador ul > li a {
     font-size: 14px;
@@ -149,5 +150,8 @@ body {
   }
   .title {
     display: none;
+  }
+  .footer {
+    height: 70px;
   }
 }
