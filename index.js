@@ -1,7 +1,7 @@
 // Media Player
 
 const audio = document.querySelector('audio')
-const boton = document.getElementById('boton')
+const boton = document.querySelector('button')
 const input = document.getElementById('volumen')
 
 const player = new MediaPlayer({ el: audio })
@@ -30,6 +30,8 @@ input.addEventListener("mousemove", (ev) => audio.volume = ev.target.value)
 
 // Top Movie
 const movieList = document.getElementById('movies');
+const header = document.getElementById('header');
+
 const apiKey = 'b89fc45c2067cbd33560270639722eae';
 
       async function getMovie(id) {
@@ -47,15 +49,7 @@ const apiKey = 'b89fc45c2067cbd33560270639722eae';
       }
 
       async function getTopMoviesIds(n = 3) {
-        // return getPopularMovies().then(popularMovies =>
-        //   popularMovies.slice(0, n).map(movie => movie.id)
-        // );
-        // try {
-        //   const popularMovies = await getPopularMovies();
-        // } catch (error) {
-        //   console.log(error.message)
-        // }
-
+       
         const popularMovies = await getPopularMovies();
         const ids = popularMovies.slice(0, n).map(movie => movie.id);
         return ids;
@@ -91,6 +85,10 @@ const apiKey = 'b89fc45c2067cbd33560270639722eae';
       document.getElementById('sequence').onclick = async function() {
         const movies = await getTopMoviesInSequence();
         movieList.classList.remove('hide')
+        movieList.classList.add('movies')
         renderMovies(movies);
-        movieList.addEventListener('click', () => movieList.classList.add('hide'))
+        header.addEventListener('click', () => {
+          movieList.classList.remove('movies')
+          movieList.classList.add('hide')
+        })
       };
