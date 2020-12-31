@@ -1,7 +1,7 @@
 // Media Player
 
 const audio = document.querySelector('audio')
-const boton = document.querySelector('button')
+const boton = document.getElementById('button')
 const input = document.getElementById('volumen')
 
 const player = new MediaPlayer({ el: audio })
