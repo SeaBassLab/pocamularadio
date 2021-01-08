@@ -2,138 +2,216 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body {
+  }
+  
+  body {
     display: flex;
-    flex-flow: column;
-    font-size: 16px;
-}
-.header {
     height: 100vh;
-    display: flex;
-    background-image: url(../img/fondo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;    
-}
-
-.navegador {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    position: absolute;
-}
-.navegador button {
-    outline:none;
-    border: none;
-    background: transparent;
-    color: white;
-    cursor: pointer;
-    margin-right: 8px;
-}
-.navegador button:hover {
-    text-decoration: underline;
-}
-.navegador ul {
-    display: none;
-    padding-left: 10px;
-    list-style: none;
-    position: relative;
-}
-.navegador:hover ul {
-    display: flex;
-    animation: slideInDown;
-    animation-duration: 2s;
-}
-.navegador ul > li a {
-    flex-direction: row;
-    padding-right: 10px;
+  }
+  
+  a {
+    color:   #c4953d;;
     text-decoration: none;
-    color: white;
-}
-.navegador ul > li a:hover {
-    text-decoration: underline;
-}
-.header__content {
-    flex: 1;
+  }
+
+  h3 {
+      color: blanchedalmond;
+      align-self: flex-start;
+      text-align: end;
+      padding-right: 10px;
+  }
+  
+  .header { 
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
-.audio__content {
     background: transparent;
+    backdrop-filter: brightness(60%);
+    width: 100%;
+    height: 12%;
+    position: absolute;
+    border-bottom: 1px solid #acc4d4;
+    
+  }
+  
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  .links {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    animation: zoomIn;
-    animation-duration: 4s;
-    color: white;
-    
-}
-.audio__content__item {
-    display: flex;
-}
-.audio__content__item input {
-    align-self: center;
-    width: 20px;
-    height: 150px;
-    -webkit-appearance: slider-vertical;
-}
-.audio__content__item button {
-    width: 200px;
-    height: 200px;
-    background-image: url(logo_size_invert.jpg);
+    width: 90px;
+    height: 100%;
+  }
+
+  .links img {
+    width: 80%;
     border-radius: 50%;
-    margin: 10px 10px;
-    outline:none;
-    border: none;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    box-shadow: 0 20px 30px 0 rgba(10, 10, 10, 0.53),0 30px 80px 0 rgba(10, 10, 10, 0.53);
-}
-.audio__content__item button:hover {
-    animation: heartBeat;
-    animation-duration: 2s;
-}
-.audio__content__item button:active {
-    background-image: url(logo_size.jpg);
-    transition: cubic-bezier(1, 0, 0, 1);
-}
+  }
+  
+  .links:hover {
+    box-shadow: inset 0 0px 20px 0 rgba(10, 10, 10, 0.53),0 0px 20px 0 rgba(10, 10, 10, 0.53);
+  }
 
-.hide {
-    display: none;
-}
-
-.peliculas  ul > li {
-    list-style: none;
-    color:rgb(240, 232, 218);
-    text-align: center;
-    text-shadow: 2px 2px #0c0000;
-}
-.peliculas ul > li img {
-    width: 50px;
-}
-
-.movies {
+  .section {
     display: flex;
-}
-
-.footer {
-    background: rgba(20, 5, 1, 0.932);
-    color:rgb(255, 166, 1);
-    margin-top: auto;
+    width: 200px;
+    flex-grow: 1;
+    background-size: cover;
+    background-image: url('/img/fondo2.jpg');
+    
+  }
+  
+  .section__content {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #f6f6f6;
+    width: 76%;
+    height: 99%;
+    padding: 10px;
+    border: 1px solid rgb(106, 117, 122);
+    box-shadow: 0 20px 20px 0 rgba(10, 10, 10, 0.53),0 20px 20px 0 rgba(10, 10, 10, 0.53);
+  }
+  
+  .navegator {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    position: relative;
+    background: rgb(0, 10, 14);
+  }
+  
+  .navegator_head{
+    display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 12%;
+    border-bottom:1px solid #acc4d4;
+  }
+
+  .navegator_links {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-shadow: inset 0 0px 20px 0 rgb(1, 21, 29),0 0px 20px 0 rgb(1, 21, 29);
+    color: #c4953d;
+  }
+
+  .navegator_links:hover {
+    background-color: rgb(1, 21, 29);
+  }
+
+  .navegator_links_sm {
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    width: 100%;
+    height: 9%;
+    text-align: center;
+    box-shadow: inset 0 0px 20px 0 rgb(1, 21, 29),0 0px 20px 0 rgb(1, 21, 29);
+    color: #c4953d;
+  }
+
+  .social_media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3px;
+    width: 20%;
+    height: 80%;
+    background: #684402;
+    border-radius: 50%;
+  }
+  .social_media img {
+    width: 30px;
+  }
+
+  .social_media:active {
+    width: 18%;
+    height: 78%;
+  }
+
+  .button_container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(6, 104, 134, 0.925);
+      width: 25%;
+      height: 80%;
+      border-radius: 50%;
+      border: 2px solid #684402;
+  }
+
+  .button {
+    width: 85%;
+    height: 85%;
+    background-size: cover;
+    background-image: url('/img/play_pause.png');
+    background-position: 50%;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid #684402;
+  }
+
+  .button_container:hover {
+    border: 2px solid #c4953d
+  }
+
+  .button:hover {
+    border: 2px solid #c4953d;
+  }
+  .button:active {
+    width: 80%;
+    height: 80%;
+  }
+
+  .text_container {
+      display: flex;
+      align-items: flex-end;
+      width: 65%;
+      height: 80%;    
+  }
+
+  .toggle_ligth {
+    width: 12%;
+    height: 20%;
+    border-radius: 50%;
+  }
+
+  .on {
+    border: 2px solid #def7dd;
+    background-color: #079e02;
+  }
+
+  .off {
+    border: 2px solid #ff0000;
+    background-color: rgb(0, 0, 0);;
+  }
+
+  .on_off {
+      color: #acc4d4;     
+      width: 40%;
+      height: 20%;
+      font-size: 12px;
+      margin-left: 10px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    width: 82%;
+    margin-top: auto;
+    position: absolute;
+    align-self: flex-end;
+    color: #c4953d;
     font-size: 18px;
-}
-.footer a {
-    text-decoration: none;
-    color:rgb(160, 131, 78);
-    justify-content: space-between;
-}
+    backdrop-filter: brightness(30%);
+  }
 
 
+  
