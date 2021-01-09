@@ -17,7 +17,7 @@ a {
 
 .header {
   background-size: cover;
-  background-image: url('/contactos/img/fondo.png');
+  background-image: url('/contactos/img/fondo2.png');
   display: flex;
   height: 200px;
   padding: 0 10px 0 10px;
@@ -32,7 +32,7 @@ a {
 }
 
 .header__logo {
-  background-image: url('/contactos/img/perfil0.png');
+  background-image: url('/contactos/img/img1.png');
   align-self: center;
   background-size: cover;
   outline-style: none;
