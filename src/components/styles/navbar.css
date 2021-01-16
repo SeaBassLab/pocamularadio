@@ -1,0 +1,154 @@
+.navegator {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(  rgb(0, 10, 14),  rgb(2, 64, 88));
+    border-left: 2px solid #684402;
+  }
+  
+  .navegator_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80px;
+    border-bottom:2px solid #684402;
+  }
+
+  .navegator_links {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #c4953d;
+  }
+
+  .navegator_links:hover {
+    background-color: rgb(0, 10, 14);
+  }
+
+  .navegator_links_sm {
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    width: 100%;
+    height: 9%;
+    text-align: center;
+    color: #c4953d;
+  }
+
+  .social_media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3px;
+    width: 20%;
+    height: 80%;
+    background:  #684402;
+    transition: 1s;
+    box-shadow: 0 5px 5px 0  rgb(0, 10, 14),0 5px 5px 0  rgb(0, 10, 14);
+    box-shadow: inset 0 5px 5px 0  rgb(0, 10, 14),0 5px 5px 0  rgb(0, 10, 14);
+    border-radius: 50%;
+  }
+  .social_media img {
+    width: 30px;
+  }
+
+  .social_media:hover{
+      background: #c4953d;
+      box-shadow: inset 0 0px 0px 0  rgb(0, 10, 14),0 0px 0px 0  rgb(0, 10, 14);
+  }
+
+  .button_container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(6, 104, 134, 0.925);
+      width: 25%;
+      height: 80%;
+      border-radius: 50%;
+      border: 2px solid #684402;
+      box-shadow: inset 0 0px 10px 0  rgb(0, 10, 14),0 0px 10px 0  rgb(0, 10, 14);
+  }
+
+  .button {
+    width: 85%;
+    height: 85%;
+    background-size: cover;
+    background-image: url('./images/play_pause.png');
+    background-position: 50%;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid #684402;
+  }
+
+  .button_container:hover {
+    border: 2px solid #c4953d
+  }
+
+  .button:hover {
+    border: 2px solid #c4953d;
+  }
+  .button:active {
+    width: 80%;
+    height: 80%;
+  }
+
+  .donate_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  .donate_button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    font-size: 30px;
+    background: linear-gradient( rgb(2, 64, 88), rgb(0, 10, 14)  );
+    box-shadow: 0 5px 5px 0  rgb(0, 10, 14),0 5px 5px 0  rgb(0, 10, 14);
+  }
+
+  .donate_button a:hover {
+    border: 1px solid #c4953d;
+    background: rgb(2, 64, 88);
+    box-shadow: 0 10px 10px 0  rgb(0, 10, 14),0 10px 10px 0  rgb(0, 10, 14);
+    transition: 2s;
+  }
+
+  .text_container {
+      display: flex;
+      align-items: flex-end;
+      width: 65%;
+      height: 80%;    
+  }
+
+  .toggle_ligth {
+    width: 12%;
+    height: 20%;
+    border-radius: 50%;
+  }
+
+  .on {
+    border: 2px solid #def7dd;
+    background-color: #079e02;
+  }
+
+  .off {
+    border: 2px solid #ff0000;
+    background-color: rgb(0, 0, 0);;
+  }
+
+  .on_off {
+      color: #acc4d4;     
+      width: 40%;
+      height: 20%;
+      font-size: 12px;
+      margin-left: 10px;
+  }
