@@ -1,0 +1,63 @@
+.section_content_turismo{
+    display: flex;
+    justify-content: space-around; 
+    background: linear-gradient(  rgb(0, 10, 14),  rgb(2, 64, 88));
+    width: 100%;
+    height: 100vh; 
+}
+
+.fix_content_t {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    overflow-x: hidden;
+    width: 80%;
+    background: white;
+    border-radius: 20px;
+    box-shadow: inset 0 0px 10px 0  rgb(0, 10, 14),0 0px 10px 0  rgb(0, 10, 14);
+    background: linear-gradient(  rgb(255, 255, 255),  rgb(2, 64, 88));
+}
+
+.fix_content_t::-webkit-scrollbar {
+    display: none;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: revert;
+    color: rgb(1, 49, 68);
+    margin: 30px;
+}
+
+.info_content {
+    text-align: center;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(40, 60, 68);
+}
+
+.info {
+    height: auto;
+}
+
+.image_container{
+    width: 100%;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image img{
+    margin: 30px;
+    width: 600px;
+    border-radius: 5%;
+    box-shadow: 0 0px 10px 0  rgb(0, 10, 14),0 0px 10px 0  rgb(0, 10, 14);
+}

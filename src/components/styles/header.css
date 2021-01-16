@@ -1,0 +1,51 @@
+.header { 
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    width: 80%;
+    background-size: cover;  
+  }
+  
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    backdrop-filter: brightness(50%);
+    border-bottom: 2px solid #684402;
+  }
+
+  .section {
+    display: flex;
+    position: absolute;
+    width: 80%;
+    height: auto;   
+  }
+  
+  .heart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    color: #c4953d;
+    width: 32%;
+    height: 100%;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100%;
+  }
+
+  .links img {
+    margin-left: 10px;
+    width: 80%;
+    border-radius: 50%;
+  }
+  
+  .links:hover {
+    box-shadow: inset 0 0px 20px 0 rgb(2, 64, 88),0 0px 20px 0 rgb(2, 64, 88);
+  }

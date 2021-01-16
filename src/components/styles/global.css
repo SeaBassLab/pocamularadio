@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100vh;
+  }
+  
+  a {
+    color:#c4953d;
+    text-decoration: none;
+  }
+
+  h3 {
+      color: blanchedalmond;
+      align-self: flex-start;
+      text-align: end;
+      padding-right: 10px;
+      padding-top: 5px;
+  }
+
+  iframe {
+    height: 100vh;
+  }
