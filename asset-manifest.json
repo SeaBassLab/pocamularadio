@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pocamularadio/static/css/main.2ccda7a4.chunk.css",
+    "main.js": "/pocamularadio/static/js/main.1c0737db.chunk.js",
+    "main.js.map": "/pocamularadio/static/js/main.1c0737db.chunk.js.map",
+    "runtime-main.js": "/pocamularadio/static/js/runtime-main.e1109cb2.js",
+    "runtime-main.js.map": "/pocamularadio/static/js/runtime-main.e1109cb2.js.map",
+    "static/js/2.ad1c5050.chunk.js": "/pocamularadio/static/js/2.ad1c5050.chunk.js",
+    "static/js/2.ad1c5050.chunk.js.map": "/pocamularadio/static/js/2.ad1c5050.chunk.js.map",
+    "index.html": "/pocamularadio/index.html",
+    "static/css/main.2ccda7a4.chunk.css.map": "/pocamularadio/static/css/main.2ccda7a4.chunk.css.map",
+    "static/js/2.ad1c5050.chunk.js.LICENSE.txt": "/pocamularadio/static/js/2.ad1c5050.chunk.js.LICENSE.txt",
+    "static/media/notFound.css": "/pocamularadio/static/media/fondo.9fa2c601.jpg",
+    "static/media/home.css": "/pocamularadio/static/media/fondo2.cff12bf1.jpg",
+    "static/media/logo.d0cb843f.jpg": "/pocamularadio/static/media/logo.d0cb843f.jpg",
+    "static/media/contactos.css": "/pocamularadio/static/media/pp.a87ec96d.jpg",
+    "static/media/turismo1.77a52287.jpg": "/pocamularadio/static/media/turismo1.77a52287.jpg",
+    "static/media/turismo2.6858b581.jpg": "/pocamularadio/static/media/turismo2.6858b581.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1109cb2.js",
+    "static/js/2.ad1c5050.chunk.js",
+    "static/css/main.2ccda7a4.chunk.css",
+    "static/js/main.1c0737db.chunk.js"
+  ]
+}
