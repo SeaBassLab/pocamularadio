@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.33478b3f.chunk.css",
-    "main.js": "/static/js/main.1068d7a9.chunk.js",
-    "main.js.map": "/static/js/main.1068d7a9.chunk.js.map",
+    "main.css": "/static/css/main.39c0710e.chunk.css",
+    "main.js": "/static/js/main.2a8a2fc8.chunk.js",
+    "main.js.map": "/static/js/main.2a8a2fc8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e79d435e.js",
     "runtime-main.js.map": "/static/js/runtime-main.e79d435e.js.map",
-    "static/js/2.23073750.chunk.js": "/static/js/2.23073750.chunk.js",
-    "static/js/2.23073750.chunk.js.map": "/static/js/2.23073750.chunk.js.map",
+    "static/js/2.905231a2.chunk.js": "/static/js/2.905231a2.chunk.js",
+    "static/js/2.905231a2.chunk.js.map": "/static/js/2.905231a2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.33478b3f.chunk.css.map": "/static/css/main.33478b3f.chunk.css.map",
-    "static/js/2.23073750.chunk.js.LICENSE.txt": "/static/js/2.23073750.chunk.js.LICENSE.txt",
+    "static/css/main.39c0710e.chunk.css.map": "/static/css/main.39c0710e.chunk.css.map",
+    "static/js/2.905231a2.chunk.js.LICENSE.txt": "/static/js/2.905231a2.chunk.js.LICENSE.txt",
     "static/media/Pocamula_logo.78532f06.png": "/static/media/Pocamula_logo.78532f06.png",
     "static/media/cursos_platzi.7d3d714b.png": "/static/media/cursos_platzi.7d3d714b.png",
     "static/media/fondo2.cff12bf1.jpg": "/static/media/fondo2.cff12bf1.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e79d435e.js",
-    "static/js/2.23073750.chunk.js",
-    "static/css/main.33478b3f.chunk.css",
-    "static/js/main.1068d7a9.chunk.js"
+    "static/js/2.905231a2.chunk.js",
+    "static/css/main.39c0710e.chunk.css",
+    "static/js/main.2a8a2fc8.chunk.js"
   ]
 }
