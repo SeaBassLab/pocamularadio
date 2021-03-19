@@ -1,27 +1,30 @@
 {
   "files": {
     "main.css": "/static/css/main.c752d811.chunk.css",
-    "main.js": "/static/js/main.d0f32601.chunk.js",
-    "main.js.map": "/static/js/main.d0f32601.chunk.js.map",
+    "main.js": "/static/js/main.4616de5c.chunk.js",
+    "main.js.map": "/static/js/main.4616de5c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e79d435e.js",
     "runtime-main.js.map": "/static/js/runtime-main.e79d435e.js.map",
-    "static/js/2.2313755f.chunk.js": "/static/js/2.2313755f.chunk.js",
-    "static/js/2.2313755f.chunk.js.map": "/static/js/2.2313755f.chunk.js.map",
+    "static/js/2.454bb536.chunk.js": "/static/js/2.454bb536.chunk.js",
+    "static/js/2.454bb536.chunk.js.map": "/static/js/2.454bb536.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.c752d811.chunk.css.map": "/static/css/main.c752d811.chunk.css.map",
-    "static/js/2.2313755f.chunk.js.LICENSE.txt": "/static/js/2.2313755f.chunk.js.LICENSE.txt",
+    "static/js/2.454bb536.chunk.js.LICENSE.txt": "/static/js/2.454bb536.chunk.js.LICENSE.txt",
     "static/media/RSE_photo.5a17ad11.jpg": "/static/media/RSE_photo.5a17ad11.jpg",
     "static/media/cuidado-de-automóvil-chequeo-2.928138a2.jpeg": "/static/media/cuidado-de-automóvil-chequeo-2.928138a2.jpeg",
     "static/media/cursos_platzi.7d3d714b.png": "/static/media/cursos_platzi.7d3d714b.png",
-    "static/media/fondo2.cff12bf1.jpg": "/static/media/fondo2.cff12bf1.jpg",
     "static/media/logo_pocamula.df64eedd.png": "/static/media/logo_pocamula.df64eedd.png",
-    "static/media/turismo1.77a52287.jpg": "/static/media/turismo1.77a52287.jpg",
-    "static/media/turismo2.6858b581.jpg": "/static/media/turismo2.6858b581.jpg"
+    "static/media/senderismo-1.e69bc194.png": "/static/media/senderismo-1.e69bc194.png",
+    "static/media/senderismo-2.613ed1d0.png": "/static/media/senderismo-2.613ed1d0.png",
+    "static/media/senderismo-3.eaaa7fe5.png": "/static/media/senderismo-3.eaaa7fe5.png",
+    "static/media/senderismo-4.5e63c8d0.png": "/static/media/senderismo-4.5e63c8d0.png",
+    "static/media/senderismo-5.f413994e.png": "/static/media/senderismo-5.f413994e.png",
+    "static/media/senderismo-6.601aecf2.png": "/static/media/senderismo-6.601aecf2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e79d435e.js",
-    "static/js/2.2313755f.chunk.js",
+    "static/js/2.454bb536.chunk.js",
     "static/css/main.c752d811.chunk.css",
-    "static/js/main.d0f32601.chunk.js"
+    "static/js/main.4616de5c.chunk.js"
   ]
 }
